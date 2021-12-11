@@ -7,7 +7,7 @@ import PendingOrder from "./PendingOrder";
 
 const DriverHomeTabs = () => {
   return (
-    <Tabs color="cyan" tabPadding="lg">
+    <Tabs tabPadding="lg">
       <Tabs.Tab label="Pending" icon={<HomeIcon />}>
         <PendingOrder />
       </Tabs.Tab>

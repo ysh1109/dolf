@@ -85,7 +85,7 @@ const RequestForm = () => {
 
   return (
     <div style={{ display: "flex", height: "100%" }}>
-      <Wrapper apiKey={"AIzaSyD_PMRfmKawDZZFPkNQ1_R5eI0mMs4V8x0"} render={render}>
+      <Wrapper apiKey={""} render={render}>
         <Map center={center} onClick={onClick} onIdle={onIdle} zoom={zoom} style={{ flexGrow: "1", height: "100%" }}>
           {clicks.map((latLng, i) => (
             <Marker key={i} position={latLng} />

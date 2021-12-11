@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,6 +7,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -38,4 +41,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+  color: gray;
 }

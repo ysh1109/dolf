@@ -51,7 +51,7 @@ const LogInPage = (props) => {
         <div>Or</div>
         <UnstyledButton>
           <div
-            style={{ color: "#1c7ed6", fontWeight: "bold" }}
+            style={{ color: "#E00890", fontWeight: "bold", fontSize: 20 }}
             onClick={() => {
               navigate("/sign-up");
             }}

@@ -1,4 +1,4 @@
-const key = "AIzaSyAXKobfLkWShHPPWl8B-zAnzaoZHGLFTlY";
+const key = "";
 
 export const G_API_URL = `https://maps.googleapis.com/maps/api/js?key=${key}&&v=3.exp&libraries=geometry,drawing,places`;
 
